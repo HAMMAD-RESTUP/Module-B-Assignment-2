@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#phoneTable {
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+
+    border: 1px solid #ddd;
+    padding: 8px;
+
+}
+
+#phoneTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#phoneTable tr:hover {
+    background-color: #ddd;
+}
+
+#phoneTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0488aa;
+    color: white;
+}
+
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+
+#main-heading{
+    text-align: center;
+    color: brown;
+
+}
+
+.logo1{
+    height:100px;
+    width: 150px;
+}
+
+
+select {
+    height: 298px;
+    border-radius: 5px;
+    height: 23px;
+    width: 188px;
+    color: white;
+    background: black;
+    border: none;
+    word-wrap: normal;
+}
+
